@@ -46,10 +46,13 @@ justify-content: center;
 align-items: center;
 }
 
-#board-container {
+#game-background {
 padding: 0.5rem;
 box-shadow: 1px 1px 20px 20px rgb(250, 250, 250);
 background: rgb(250, 250, 250);
+}
+
+#board-container {
 display: flex;
 justify-content: center;
 }
@@ -75,3 +78,44 @@ padding: 1rem;
 display: flex;
 justify-content: center;
 }
+
+#player-container {
+margin-top: 0.5rem;
+display: flex;
+justify-content: space-between;
+}
+
+.player {
+display: flex;
+align-items: center;
+}
+
+.text {
+color: #08a;
+}
+
+#arrowtext {
+color: rgba(0, 0, 0, 0.644);
+margin-left: 1.2rem;
+font-size: small;
+font-weight: 700;
+z-index: 1;
+position: absolute;
+}
+
+#arrow {
+z-index: 0;
+}
+
+#leftdisc {
+padding-right: 0.5rem;
+}
+
+#rightdisc {
+padding-left: 0.5rem;
+}
+
+.disc {
+width: 2rem;
+}
+
