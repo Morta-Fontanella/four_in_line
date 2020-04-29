@@ -120,6 +120,39 @@ padding-left: 0.5rem;
 .disc {
 width: 2rem;
 }
+ 
+#likebutton {
+margin-right: 1rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+border-radius: 3px;
+background: #1877f2;
+color: white;
+display: flex;
+align-items: center;
+}
+
+#likebutton:hover{
+cursor: pointer;
+background: #4f95f1;
+}
+
+#embedbutton{
+border-radius: 3px;
+border: 1px solid #08a;
+color: #08a;
+}
+
+#embedbutton:hover {
+cursor: pointer;
+background: #08a;
+color: white;
+}
+
+#embedbutton a {
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
 
 @media (max-width: 410px) {
 #game-backgroud {

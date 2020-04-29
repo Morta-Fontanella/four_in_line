@@ -1,2 +1,2 @@
-# Four in Lane
+# Four in Line
 link to test: https://morta-fontanella.github.io/four_in_lane/
